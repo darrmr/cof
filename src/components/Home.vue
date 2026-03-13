@@ -1,0 +1,211 @@
+<template>
+       <main>
+        <div class="bg-cover bg-center bg-no-repeat" style="background-image: url('assets/image/bg_sky.jpg')">
+          <div class="bg-white/70 p-4">
+            <div class="flex flex-wrap justify-center gap-2 md:gap-4 py-2 md:py-4 mb-6">
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Американо
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Латте
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Капучино
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Мокко
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Эспрессо
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Раф
+              </a>
+              <a href="404.html"
+                class="flex-1 min-w-[80px] max-w-[120px] px-2 py-3 md:px-4 md:py-6 border-2 rounded-full text-xs md:text-sm font-semibold text-center hover:bg-slate-300 transition">
+                Макиато
+              </a>
+            </div>
+            <div class="mt-16 mb-16 md:space-y-12 space-y-6 ">
+              <p class="text-2xl text-left pl-[20%]">
+                Чтобы согреться, нам нужна температура
+              </p>
+              <p class="text-2xl text-center">
+                Чтобы насладиться, нам нужна атмосфера
+              </p>
+              <p class="text-2xl text-left pl-[20%] mb-30">
+                Чтобы почувствовать, нам нужен <span class="font-semibold">ВКУС</span>
+              </p>
+            </div>
+            <div class="flex flex-col sm:flex-row items-center justify-between py-4 px-4 gap-4 mb-16">
+              <div class="font-semibold text-center sm:text-left">
+                <div>Твой отзыв действительно важен</div>
+                <div class="mt-2 pl-0 md:pl-[10%] font-semibold">Лучший кофе - лучше день</div>
+              </div>
+              <button
+                class="rounded-full px-4 py-2 text-white bg-slate-700 hover:bg-slate-900 active:bg-slate-500 min-w-[120px]">
+                Добавить
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-start mt-16 gap-12" id="table">
+
+          <aside class="w-48 text-sm space-y-8 ml-6">
+            <div>
+              <h3 class="font-semibold mb-2">Кто мы?</h3>
+              <p>
+                Сообщество любителей кофе, формирующее честный рейтинг напитков.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="font-semibold mb-2">Наши приоритеты</h3>
+              <p>
+                Вкус, атмосфера, честная оценка.
+              </p>
+            </div>
+
+            <div>
+              <h3 class="font-semibold mb-2">Таблица лидеров</h3>
+              <p>
+                Топ-10 напитков по отзывам.
+              </p>
+            </div>
+          </aside>
+          <div class="w-full md:flex-1 overflow-x-auto">
+            <div class="bg-white border rounded-lg  sm:min-w-[200px]">
+              <table class="w-full text-sm">
+                <thead class="bg-gray-50">
+                  <tr>
+                    <th class="p-2 md:p-3 text-left font-medium">Вид напитка</th>
+                    <th class="p-2 md:p-3 text-left font-medium">Кофейня</th>
+                    <th class="p-2 md:p-3 text-right font-medium">Балл</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="border-t hover:bg-gray-50">
+                    <td class="p-2 md:p-3">Латте</td>
+                    <td class="p-2 md:p-3">Starders</td>
+                    <td class="p-2 md:p-3 text-right font-semibold">9.1</td>
+                  </tr>
+                  <tr class="border-t hover:bg-gray-50">
+                    <td class="p-2 md:p-3">Капучино</td>
+                    <td class="p-2 md:p-3">Cofpax</td>
+                    <td class="p-2 md:p-3 text-right font-semibold">8.8</td>
+                  </tr>
+                  <tr class="border-t hover:bg-gray-50">
+                    <td class="p-2 md:p-3">Раф</td>
+                    <td class="p-2 md:p-3">One pack</td>
+                    <td class="p-2 md:p-3 text-right font-semibold">8.6</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+          <aside class="w-full md:w-52">
+            <div class="bg-white border rounded-lg p-3 md:p-4 space-y-3 text-sm">
+              <h3 class="font-semibold text-center md:text-left">Настрой свои предпочтения</h3>
+
+              <div>
+                <label class="block mb-1 text-gray-600 text-sm">Город</label>
+                <input type="text" placeholder="Москва" class="w-full border rounded px-2 py-1 text-sm">
+              </div>
+
+              <div>
+                <label class="block mb-1 text-gray-600 text-sm">Напиток</label>
+                <select class="w-full border rounded px-2 py-1 text-sm">
+                  <option>Американо</option>
+                  <option>Латте</option>
+                  <option>Капучино</option>
+                  <option>Мокко</option>
+                  <option>Эспрессо</option>
+                  <option>Раф</option>
+                  <option>Маккиато</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block mb-1 text-gray-600 text-sm">Молоко</label>
+                <select class="w-full border rounded px-2 py-1 text-sm">
+                  <option>Классическое</option>
+                  <option>Безлактозное</option>
+                  <option>Овсяное</option>
+                  <option>Кокосовое</option>
+                  <option>Банановое</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block mb-1 text-gray-600 text-sm">Топинг</label>
+                <select class="w-full border rounded px-2 py-1 text-sm">
+                  <option>Сахар</option>
+                  <option>Сироп</option>
+                  <option>Корица</option>
+                  <option>Доп эспрессо</option>
+                  <option>Сливки</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="block mb-2 text-gray-600 text-sm">Насколько нравится горчинка?</label>
+                <div class="flex justify-center gap-1">
+                  <input type="radio" name="bitterness_cof" id="b1" value="1" class="peer hidden">
+                  <label for="b1"
+                    class="peer-checked:bg-black w-4 h-4 rounded-full border-2 border-gray-300 cursor-pointer"></label>
+                  <input type="radio" name="bitterness_cof" id="b2" value="2" class="peer hidden">
+                  <label for="b2"
+                    class="peer-checked:bg-black w-4 h-4 rounded-full border-2 border-gray-300 cursor-pointer"></label>
+                  <input type="radio" name="bitterness_cof" id="b3" value="3" class="peer hidden">
+                  <label for="b3"
+                    class="peer-checked:bg-black w-4 h-4 rounded-full border-2 border-gray-300 cursor-pointer"></label>
+                  <input type="radio" name="bitterness_cof" id="b4" value="4" class="peer hidden">
+                  <label for="b4"
+                    class="peer-checked:bg-black w-4 h-4 rounded-full border-2 border-gray-300 cursor-pointer"></label>
+                  <input type="radio" name="bitterness_cof" id="b5" value="5" class="peer hidden">
+                  <label for="b5"
+                    class="peer-checked:bg-black w-4 h-4 rounded-full border-2 border-gray-300 cursor-pointer"></label>
+                </div>
+              </div>
+
+              <button
+                class="w-full text-white mt-4 py-2 rounded-lg bg-slate-700 hover:bg-slate-900 active:bg-slate-500">
+                Настроить
+              </button>
+            </div>
+          </aside>
+        </div>
+        <div class="py-6 bg-slate-100 mt-6" id="aboutus">
+          <div class="px-4 text-xl md:text-2xl font-semibold py-4 text-center">
+            Немного дополнений от нас
+          </div>
+          <div class="mb-6 space-y-6 font-semibold py-4 px-4">
+            <p class="text-left">На&nbsp;самом деле мы&nbsp;прекрасно понимаем, что вкус каждого нашего гостя
+              особенный.</p>
+            <p class="text-left">Понимаем, что многие из&nbsp;вас уже давно выбрали то&nbsp;самое место, куда всегда
+              хочется возвращаться.</p>
+            <p class="text-right">Н-но ведь счастье совершенно не&nbsp;в&nbsp;достижении цели? Счастье именно
+              в&nbsp;пути...</p>
+            <p class="text-right">Именно поэтому и&nbsp;был создан этот сайт, чтобы разделить с&nbsp;вами тот самый
+              путь к&nbsp;счастью.</p>
+            <p class="text-right">Путь к&nbsp;лучшему кофе</p>
+          </div>
+        </div>
+      </main>
+</template>
+
+<script>
+import Header from './Header.vue'
+import Footer from './Footer.vue'
+
+export default {
+  components: { Header, Footer }
+}
+</script>
